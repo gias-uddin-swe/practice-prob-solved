@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="diction-container">
+      <input id="input-value" type="text" value="hello" />
+      <button onclick="handleSearch()" id="search-btn">Search</button>
+      <div id="audio-container" class="audio-container"></div>
+    </div>
+
+    <section class="github">
+      <button onclick="loadGithubUsers()" id="github-btn" class="button">
+        Load Github USers
+      </button>
+      <div id="user-cotnainer" class="user-cotnainer">
+
+      </div>
+    </section>
+    <!-- add script from here -->
+    <script src="./app.js"></script>
+  </body>
+</html>
